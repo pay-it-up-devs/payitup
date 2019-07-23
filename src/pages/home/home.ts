@@ -18,7 +18,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+///
   search(){
         this.navCtrl.push(SearchPage)
   } 
@@ -34,13 +34,18 @@ export class HomePage {
   transaction(){
         this.navCtrl.push(TransactionPage)
   } 
+  //Bill Payments and Recharge
   phonerecharge(){
         this.navCtrl.push(PhonerechargePage)
   }  
   book_ticket(){
         this.navCtrl.push(Book_ticketPage)
   } 
-more_rechargebillpayment(){
+  more_rechargebillpayment(){
         this.navCtrl.push(Recharge_bill_payment_morePage)
-  } 
+  }
+  //Financial Services
+  more_financial_services(){
+	  
+  }
 }
