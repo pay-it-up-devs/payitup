@@ -7,11 +7,12 @@ import { VerificationPage } from '../verification/verification';
   templateUrl: 'signup.html'
 })
 export class SignupPage {
-
+ inputValue: string = "";
   constructor(public navCtrl: NavController) {
 
   }
  verification(){
+	  console.log("Systems pppp" +this.inputValue);
         this.navCtrl.push(VerificationPage)
   } 
 }

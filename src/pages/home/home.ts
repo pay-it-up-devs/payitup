@@ -7,6 +7,8 @@ import {AddmoneyPage} from '../addmoney/addmoney';
 import {GetpaymentPage} from '../getpayment/getpayment';
 import {TransactionPage} from '../transaction/transaction';
 import {PhonerechargePage} from '../phonerecharge/phonerecharge';
+import {RechargePage} from '../recharge/recharge';
+
 import {Book_ticketPage} from '../book_ticket/book_ticket';
 import {Recharge_bill_payment_morePage} from '../recharge_bill_payment_more/recharge_bill_payment_more';
 @Component({
@@ -36,7 +38,8 @@ export class HomePage {
   } 
   //Bill Payments and Recharge
   phonerecharge(){
-        this.navCtrl.push(PhonerechargePage)
+	    console.log("Systems pppp");
+        this.navCtrl.push(RechargePage)
   }  
   book_ticket(){
         this.navCtrl.push(Book_ticketPage)
